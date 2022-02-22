@@ -6,7 +6,7 @@ The purpose is to demonstrate form creation, state management, and serverless fo
 
 ## The Form
 
-You can see the form in the `output/index.html` file. It's just a basic form with a bit of conditional logic. 
+You can see the form in the `output/index.html` file by clicking [here](https://philwonski.github.io/TW5-Serverless-Form-Submission/output/). It's just a basic form with a bit of conditional logic. 
 
 You can edit the form by modifying the tiddlers in the `tiddlers` folder directly. Alternatively, launch the wiki locally from the working directory with:
 
