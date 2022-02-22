@@ -1,0 +1,13 @@
+created: 20220221203329262
+modified: 20220222163719973
+tags: 
+title: button/submit
+type: text/vnd.tiddlywiki
+
+<$button class="submit">
+    Submit Form
+    <$action-submitform
+    $url={{endpoint!!url}}
+    $tiddler="state/selections"
+    />
+</$button>

@@ -1,0 +1,44 @@
+created: 20220221203018530
+modified: 20220221225126933
+tags: 
+title: Surf Form
+type: text/vnd.tiddlywiki
+
+<div class="cont">
+
+Do you know how to swim?
+
+<$tiddler tiddler="state/selections">
+<$radio index="canswim" value="yes"> Yes</$radio>
+<$radio index="canswim" value="no"> No</$radio>
+</$tiddler>
+
+<hr>
+
+Do you own a surf board? 
+
+<$tiddler tiddler="state/selections">
+<$radio index="surfboard" value="yes"> Yes</$radio>
+<$radio index="surfboard" value="no"> No</$radio>
+</$tiddler>
+
+<hr>
+
+Are you afraid of sharks? 
+
+<$tiddler tiddler="state/selections">
+<$radio index="scaredofsharks" value="yes"> Yes</$radio>
+<$radio index="scaredofsharks" value="no"> No</$radio>
+</$tiddler>
+
+<hr>
+
+What's your name?
+
+<$edit-text tiddler="state/selections" index="name" tag="input" />
+
+<hr>
+
+{{button/submit}}
+
+</div>

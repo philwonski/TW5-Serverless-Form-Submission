@@ -1,0 +1,11 @@
+created: 20220221155409092
+modified: 20220222001639355
+tags: $:/tags/Stylesheet
+title: css
+type: text/vnd.tiddlywiki
+
+.sport { width: 160px; border: none; background-color: white; cursor: pointer;}
+
+.submit { background-color: green; color: white; padding: 2%; width: 140px; }
+
+.cont {width: 80%; margin: auto; align: center; text-align: center;}

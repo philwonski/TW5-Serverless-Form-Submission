@@ -1,0 +1,7 @@
+created: 20220222160708898
+modified: 20220222160946923
+tags: $:/tags/SideBar
+title: Set Endpoint
+type: text/vnd.tiddlywiki
+
+<$edit-text tiddler="endpoint" field="url" size="40"/>

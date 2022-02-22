@@ -1,0 +1,26 @@
+created: 20220221202614917
+modified: 20220221225040279
+tags: 
+title: Ski Form
+type: text/vnd.tiddlywiki
+
+<div class="cont">
+
+Do you own skis and boots? 
+
+<$tiddler tiddler="state/selections">
+<$radio index="skisboots" value="yes"> Yes</$radio>
+<$radio index="skisboots" value="no"> No</$radio>
+</$tiddler>
+
+<hr>
+
+What's your name?
+
+<$edit-text tiddler="state/selections" index="name" tag="input" />
+
+<hr>
+
+{{button/submit}}
+
+</div>

@@ -1,0 +1,33 @@
+created: 20220221154253796
+modified: 20220222165609121
+tags: 
+title: Greeting Form
+type: text/vnd.tiddlywiki
+
+<div class="cont">
+
+<h2>Select Your Sport</h2>
+
+<div style="float: left; width: 50%; margin-bottom: 20px;">
+<$button class="sport">
+<$action-setfield $tiddler="state/selections" $index="sport" $value="skiing"/>
+<$action-sendmessage $message="tm-close-all-tiddlers"/>
+<$action-navigate $to="Ski Form"/>
+[img[ski.png]]
+Skiing
+</$button>
+</div>
+
+<div style="float: left; width: 50%; margin-bottom: 20px;">
+<$button class="sport">
+<$action-setfield $tiddler="state/selections" $index="sport" $value="surfing"/>
+<$action-sendmessage $message="tm-close-all-tiddlers"/>
+<$action-navigate $to="Surf Form"/>
+[img[summer.png]]
+Surfing
+</$button>
+</div>
+
+</div>
+
+<div style="float: none; clear: both;"></div>
